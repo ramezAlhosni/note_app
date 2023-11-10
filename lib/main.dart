@@ -9,6 +9,9 @@ class NoteApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Material();
+    return MaterialApp(
+      home: const NoteApp(),
+      theme: ThemeData(brightness: Brightness.dark),
+    );
   }
 }
