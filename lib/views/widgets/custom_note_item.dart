@@ -53,7 +53,7 @@ class NoteItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 24),
               child: Text(
-                'note.data',
+                note.data,
                 style: TextStyle(
                     fontSize: 16, color: Colors.black.withOpacity(.4)),
               ),
