@@ -47,7 +47,6 @@ class NoteItem extends StatelessWidget {
                 ),
                 onPressed: () {
                   note.delete();
-
                   BlocProvider.of<NotesCubit>(context).fetchAllNotes();
                 },
               ),

@@ -29,7 +29,7 @@ class NoteView extends StatelessWidget {
             },
             child: const Icon(Icons.add),
           ),
-          body: NotesViewBody(),
+          body: const NotesViewBody(),
         );
       },
     );
